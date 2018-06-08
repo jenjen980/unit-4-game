@@ -1,0 +1,61 @@
+.jumbotron{
+    height: 250px;
+    color: white;
+}
+
+#instructions{
+    color: white;
+}
+
+#targetScore{
+    background-color: steelblue;
+    color: white;
+}
+
+#score{
+    background-color: purple;
+    color: white;
+}
+
+#crystals{
+    color: black;
+}
+
+#wins{
+    background-color: black;
+    color: white;
+}
+
+#lose{
+    background-color: black;
+    color: white;
+}
+
+#background{
+    background-image: url("../images/background.jpg");
+    /* background-color: violet; */
+    background-size: cover;
+    /* z-index: -1; */
+    /* width:75%;
+    height: 250px; */
+}
+
+.crystal {
+    height: 200px;
+    width: 200px;
+    border: solid 2px red;
+}
+
+/* .crystals{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid green;
+    display: inline;
+} */
+
+.crystal-image{
+    width: 300px;
+    height: 300px;
+    display: inline;
+}
